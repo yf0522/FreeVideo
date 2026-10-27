@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "project_id": "safety-demo",
+  "style": "同一名蓝色工装、白色安全帽的成年工作人员；同一车间通道；柔和自然光；写实风格",
+  "render": {
+    "width": 960,
+    "height": 544,
+    "seconds": 5,
+    "quality": "light"
+  },
+  "export": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24
+  },
+  "shots": [
+    {
+      "id": "s01",
+      "first_frame": "frames/s01.png",
+      "prompt": "保持首帧中的人物和服装。工作人员站在车间通道入口，轻微转头观察，镜头缓慢推进。一个连续镜头，动作提前结束，无字幕和屏幕文字。",
+      "seed": 20261027,
+      "narration": {
+        "audio": "audio/s01.wav",
+        "text": "进入车间，先观察通道状况。"
+      }
+    },
+    {
+      "id": "s02",
+      "first_frame": "frames/s02.png",
+      "prompt": "保持同一人物和场景。人物停下脚步，看向通道边的物品。固定机位，单一缓慢动作，无字幕和屏幕文字。",
+      "seed": 20261028,
+      "narration": {
+        "audio": "audio/s02.wav",
+        "text": "发现异常，先停下确认。"
+      }
+    },
+    {
+      "id": "s03",
+      "first_frame": "frames/s03.png",
+      "prompt": "保持同一人物和服装。人物站在整洁的通道旁，平静地点头。固定镜头，最后保持片刻，无字幕和屏幕文字。",
+      "seed": 20261029,
+      "narration": {
+        "audio": "audio/s03.wav",
+        "text": "让安全检查，成为每天的习惯。"
+      }
+    }
+  ]
+}
